@@ -1,5 +1,5 @@
 public class Employee {
-    static int counter = 1;
+    static int counter = 0;
     int id;
     String firstName;
     String middleName;
@@ -54,8 +54,6 @@ public class Employee {
     public static int getCounter() {
         return counter++;
     }
-
-
 
 }
 
